@@ -1,0 +1,1023 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Emporium.</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <!-- HEADER -->
+    <header class="container-fluid pt-5">
+        <!-- LOGO -->
+        <div class="row my-4 justify-content-center logo">
+            <h1>emporium.</h1>
+        </div>
+
+        <!-- NAV -->
+        <nav id="navbar" class="navbar navbar-expand-lg navbar-light">
+            <a id="nav-icon" class="navbar-brand ml-5 d-none" href="#">emporium</a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        
+            <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+                <ul class="nav justify-content-center mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#jumbotron">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#cards">Product</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#learn">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#products-slider">Elements</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services-cards">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#footer">Contact</a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <button type="button" class="btn btn-light p-3 mx-1"></button>
+                    <button type="button" class="btn btn-dark p-3 mx-1"></button>
+                    <button type="button" class="btn btn-secondary ml-5" id="connexionBtn">Connexion</button>
+                </form>
+            </div>
+        </nav>
+    </header>
+
+    <!-- SECTION JUMBOTRON -->
+    <section id="jumbotron">
+        <div class="container py-5">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h2 class="mb-0">Shop at</h2>
+                    <h1>emporium.</h1>
+                    <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my.</p>
+                    <button type="button" class="btn btn-primary mt-4">Sale Items</button>
+                </div>
+                <div class="col-lg-6">
+                    <img src="./images/slider-1.jpg" class="img-fluid" alt="T-shirt image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION CARDS -->
+    <section id="cards">
+        <div class="container-fluid my-3">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="card text-white">
+                        <img src="./images/services/service-1.jpg" class="card-img" alt="...">
+                        <div class="card-img-overlay">
+                            <h5 class="card-title text-center">Living Room</h5>
+                            <hr id="service-1">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card text-white">
+                        <img src="./images/services/service-2.jpg" class="card-img" alt="...">
+                        <div class="card-img-overlay">
+                            <h5 class="card-title text-center">Sale Items</h5>
+                            <hr id="service-2">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card text-white">
+                        <img src="./images/services/slider-3.jpg" class="card-img" alt="...">
+                        <div class="card-img-overlay">
+                            <h5 class="card-title text-center">Clothes</h5>
+                            <hr id="service-3">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION PRODUCTS -->
+    <section id="products">
+        <div class="container my-5 text-center">
+            <h3 class="my-5">Recent Products</h3>
+            <div class="row">
+
+                <!-- CARD 1 -->
+                <div class="col-lg-4">
+                    <div class="card my-2">
+                        <img src="./images/products_mini/product-luxry-sofa.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <a href="#">
+                                <h5 class="card-title">Luxury Sofa</h5>
+                            </a>
+                            <p>$600,00</p>
+                        </div>
+                        <div class="d-flex buy-btns">
+                            <div class="col-6 m-0 p-0">
+                                <button type="button" class="btn btn-details">
+                                    <i class="fas fa-eye mr-3"></i> View Details
+                                </button>
+                            </div>
+                            <div class="col-6 m-0 p-0">
+                                <button type="button" class="btn btn-cart">
+                                    <i class="fas fa-shopping-cart mr-3"></i> Add to cart
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- CARD 2 -->
+                <div class="col-lg-4">
+                    <div class="card my-2">
+                        <img src="./images/products_mini/product-gloves.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-3 offset-1">
+                                    <span class="sale">Sale!</span>
+                                </div>
+                                <div class="col-6">
+                                    <a href="#">
+                                        <h5 class="card-title">Leather Gloves</h5>
+                                    </a>
+                                    <p><span>$34,00</span> $27,00</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex buy-btns">
+                            <div class="col-6 m-0 p-0">
+                                <button type="button" class="btn btn-details">
+                                    <i class="fas fa-eye mr-3"></i> View Details
+                                </button>
+                            </div>
+                            <div class="col-6 m-0 p-0">
+                                <button type="button" class="btn btn-cart">
+                                    <i class="fas fa-shopping-cart mr-3"></i> Add to cart
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- CARD 3 -->
+                <div class="col-lg-4">
+                    <div class="card my-2">
+                        <img src="./images/products_mini/product-cups.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <a href="#">
+                                <h5 class="card-title">Colorful Bowl</h5>
+                            </a>
+                            <p>$18</p>
+                        </div>
+                        <div class="d-flex buy-btns">
+                            <div class="col-6 m-0 p-0">
+                                <button type="button" class="btn btn-details">
+                                    <i class="fas fa-eye mr-3"></i> View Details
+                                </button>
+                            </div>
+                            <div class="col-6 m-0 p-0">
+                                <button type="button" class="btn btn-cart">
+                                    <i class="fas fa-shopping-cart mr-3"></i> Add to cart
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- CARD 4 -->
+                <div class="col-lg-4">
+                    <div class="card my-2">
+                        <img src="./images/products_mini/product-bag.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-3 offset-1">
+                                    <span class="sale">Sale!</span>
+                                </div>
+                                <div class="col-6">
+                                    <a href="#">
+                                        <h5 class="card-title">Women Bag</h5>
+                                    </a>
+                                    <p><span>$420,00</span> $350,00</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex buy-btns">
+                            <div class="col-6 m-0 p-0">
+                                <button type="button" class="btn btn-details">
+                                    <i class="fas fa-eye mr-3"></i> View Details
+                                </button>
+                            </div>
+                            <div class="col-6 m-0 p-0">
+                                <button type="button" class="btn btn-cart">
+                                    <i class="fas fa-shopping-cart mr-3"></i> Add to cart
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- CARD 5 -->
+                <div class="col-lg-4">
+                    <div class="card my-2">
+                        <img src="./images/products_mini/product-tshitr.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <a href="#">
+                                <h5 class="card-title">Minimal T-Shirt</h5>
+                            </a>
+                            <p>$15,00</p>
+                        </div>
+                        <div class="d-flex buy-btns">
+                            <div class="col-6 m-0 p-0">
+                                <button type="button" class="btn btn-details">
+                                    <i class="fas fa-eye mr-3"></i> View Details
+                                </button>
+                            </div>
+                            <div class="col-6 m-0 p-0">
+                                <button type="button" class="btn btn-cart">
+                                    <i class="fas fa-shopping-cart mr-3"></i> Add to cart
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- CARD 6 -->
+                <div class="col-lg-4">
+                    <div class="card my-2">
+                        <img src="./images/products_mini/product-plates.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <a href="#">
+                                <h5 class="card-title">Plates Set</h5>
+                            </a>
+                            <p>$30,00</p>
+                        </div>
+                        <div class="d-flex buy-btns">
+                            <div class="col-6 m-0 p-0">
+                                <button type="button" class="btn btn-details">
+                                    <i class="fas fa-eye mr-3"></i> View Details
+                                </button>
+                            </div>
+                            <div class="col-6 m-0 p-0">
+                                <button type="button" class="btn btn-cart">
+                                    <i class="fas fa-shopping-cart mr-3"></i> Add to cart
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- CARD 7 -->
+                <div class="col-lg-4">
+                    <div class="card my-2">
+                        <img src="./images/products_mini/product-modern-sofa.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <a href="#">
+                                <h5 class="card-title">Modern Sofa</h5>
+                            </a>
+                            <p>$900,00</p>
+                        </div>
+                        <div class="d-flex buy-btns">
+                            <div class="col-6 m-0 p-0">
+                                <button type="button" class="btn btn-details">
+                                    <i class="fas fa-eye mr-3"></i> View Details
+                                </button>
+                            </div>
+                            <div class="col-6 m-0 p-0">
+                                <button type="button" class="btn btn-cart">
+                                    <i class="fas fa-shopping-cart mr-3"></i> Add to cart
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- CARD 8 -->
+                <div class="col-lg-4">
+                    <div class="card my-2">
+                        <img src="./images/products_mini/product-bed.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <a href="#">
+                                <h5 class="card-title">Bed Linen</h5>
+                            </a>
+                            <p>$79,00</p>
+                        </div>
+                        <div class="d-flex buy-btns">
+                            <div class="col-6 m-0 p-0">
+                                <button type="button" class="btn btn-details">
+                                    <i class="fas fa-eye mr-3"></i> View Details
+                                </button>
+                            </div>
+                            <div class="col-6 m-0 p-0">
+                                <button type="button" class="btn btn-cart">
+                                    <i class="fas fa-shopping-cart mr-3"></i> Add to cart
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- CARD 9 -->
+                <div class="col-lg-4">
+                    <div class="card my-2">
+                        <img src="./images/products_mini/product-shoes.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <a href="#">
+                                <h5 class="card-title">Minimal Shoes</h5>
+                            </a>
+                            <p>$60,00</p>
+                        </div>
+                        <div class="d-flex buy-btns">
+                            <div class="col-6 m-0 p-0">
+                                <button type="button" class="btn btn-details">
+                                    <i class="fas fa-eye mr-3"></i> View Details
+                                </button>
+                            </div>
+                            <div class="col-6 m-0 p-0">
+                                <button type="button" class="btn btn-cart">
+                                    <i class="fas fa-shopping-cart mr-3"></i> Add to cart
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION LEARN MORE (jumbotron) -->
+    <section id="learn" class="text-center text-white">
+        <div class="container">
+            <h2>Discover Thousends Of Great Products</h2>
+            <button type="button" class="btn btn-primary mt-4">Learn More</button>
+        </div>
+    </section>
+
+    <!-- SECTION FASHION PRODUCTS SLIDER -->
+    <section id="products-slider">
+        <div class="container my-5 text-center">
+            <h3 class="my-5">Hot Fashion Products</h3>
+
+            <!-- CARDS CAROUSEL (SLIDER) -->
+            <div class="row cards-slider">
+                <div class="col-lg-12">
+                    <div id="blogCarousel" class="carousel slide" data-ride="carousel">
+                        
+                        <!-- CAROUSEL INDICATORS -->
+                        <ol class="carousel-indicators">
+                            <li data-target="#blogCarousel" data-slide-to="0" class="active p-1 border"></li>
+                            <li data-target="#blogCarousel" data-slide-to="1" class="p-1 border"></li>
+                            <li data-target="#blogCarousel" data-slide-to="2" class="p-1 border"></li>
+                            <li data-target="#blogCarousel" data-slide-to="3" class="p-1 border"></li>
+                        </ol>
+            
+                        <!-- CAROUSEL ITEMS -->
+                        <div class="carousel-inner">
+                            <!-- ACTIVE ITEM -->
+                            <div class="carousel-item active">
+                                <div class="row">
+                                    <div class="col-lg-3">
+                                        <div class="card my-2">
+                                            <img src="./images/products/product-tshitr-white-700x500.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <a href="#">
+                                                    <h5 class="card-title">White T-Shirt</h5>
+                                                </a>
+                                                <p>$23,00</p>
+                                            </div>
+                                            <div class="d-flex buy-btns">
+                                                <div class="col-6 m-0 p-0">
+                                                    <button type="button" class="btn btn-details">
+                                                        <i class="fas fa-eye mr-1"></i> View Details
+                                                    </button>
+                                                </div>
+                                                <div class="col-6 m-0 p-0">
+                                                    <button type="button" class="btn btn-cart">
+                                                        <i class="fas fa-shopping-cart mr-1"></i> Add to cart
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <div class="card my-2">
+                                            <img src="./images/products/product-bag-2-700x500.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <div class="row">
+                                                    <div class="col-4">
+                                                        <span class="sale">Sale!</span>
+                                                    </div>
+                                                    <div class="col-8">
+                                                        <a href="#">
+                                                            <h5 class="card-title">Red Bag</h5>
+                                                        </a>
+                                                        <p><span>$600,00</span> $450,00</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex buy-btns">
+                                                <div class="col-6 m-0 p-0">
+                                                    <button type="button" class="btn btn-details">
+                                                        <i class="fas fa-eye mr-1"></i> View Details
+                                                    </button>
+                                                </div>
+                                                <div class="col-6 m-0 p-0">
+                                                    <button type="button" class="btn btn-cart">
+                                                        <i class="fas fa-shopping-cart mr-1"></i> Add to cart
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <div class="card my-2">
+                                            <img src="./images/products/product-jacket-700x500.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <a href="#">
+                                                    <h5 class="card-title">Sporty Jacket</h5>
+                                                </a>
+                                                <p>$40,00</p>
+                                            </div>
+                                            <div class="d-flex buy-btns">
+                                                <div class="col-6 m-0 p-0">
+                                                    <button type="button" class="btn btn-details">
+                                                        <i class="fas fa-eye mr-1"></i> View Details
+                                                    </button>
+                                                </div>
+                                                <div class="col-6 m-0 p-0">
+                                                    <button type="button" class="btn btn-cart">
+                                                        <i class="fas fa-shopping-cart mr-1"></i> Add to cart
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <div class="card my-2">
+                                            <img src="./images/products/product-shoes-700x500.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <a href="#">
+                                                    <h5 class="card-title">Minimal Shoes</h5>
+                                                </a>
+                                                <p>$60,00</p>
+                                            </div>
+                                            <div class="d-flex buy-btns">
+                                                <div class="col-6 m-0 p-0">
+                                                    <button type="button" class="btn btn-details">
+                                                        <i class="fas fa-eye mr-1"></i> View Details
+                                                    </button>
+                                                </div>
+                                                <div class="col-6 m-0 p-0">
+                                                    <button type="button" class="btn btn-cart">
+                                                        <i class="fas fa-shopping-cart mr-1"></i> Add to cart
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div> <!--.row-->
+                            </div> <!--.item-->
+            
+                            <!-- ITEM -->
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <div class="col-lg-3">                     
+                                        <div class="card my-2">
+                                            <img src="./images/products/product-tshitr-700x500.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <a href="#">
+                                                    <h5 class="card-title">Minimal T-Shirt</h5>
+                                                </a>
+                                                <p>$15,00</p>
+                                            </div>
+                                            <div class="d-flex buy-btns">
+                                                <div class="col-6 m-0 p-0">
+                                                    <button type="button" class="btn btn-details">
+                                                        <i class="fas fa-eye mr-1"></i> View Details
+                                                    </button>
+                                                </div>
+                                                <div class="col-6 m-0 p-0">
+                                                    <button type="button" class="btn btn-cart">
+                                                        <i class="fas fa-shopping-cart mr-1"></i> Add to cart
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3">                     
+                                        <div class="card my-2">
+                                            <img src="./images/products/product-bag-700x500.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <div class="row">
+                                                    <div class="col-4">
+                                                        <span class="sale">Sale!</span>
+                                                    </div>
+                                                    <div class="col-8">
+                                                        <a href="#">
+                                                            <h5 class="card-title">Women Bag</h5>
+                                                        </a>
+                                                        <p><span>$420,00</span> $350,00</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex buy-btns">
+                                                <div class="col-6 m-0 p-0">
+                                                    <button type="button" class="btn btn-details">
+                                                        <i class="fas fa-eye mr-1"></i> View Details
+                                                    </button>
+                                                </div>
+                                                <div class="col-6 m-0 p-0">
+                                                    <button type="button" class="btn btn-cart">
+                                                        <i class="fas fa-shopping-cart mr-1"></i> Add to cart
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3">                     
+                                        <div class="card my-2">
+                                            <img src="./images/products/product-gloves-700x500.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <div class="row">
+                                                    <div class="col-4">
+                                                        <span class="sale">Sale!</span>
+                                                    </div>
+                                                    <div class="col-8">
+                                                        <a href="#">
+                                                            <h5 class="card-title">Leather Gloves</h5>
+                                                        </a>
+                                                        <p><span>$34,00</span> $27,00</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex buy-btns">
+                                                <div class="col-6 m-0 p-0">
+                                                    <button type="button" class="btn btn-details">
+                                                        <i class="fas fa-eye mr-1"></i> View Details
+                                                    </button>
+                                                </div>
+                                                <div class="col-6 m-0 p-0">
+                                                    <button type="button" class="btn btn-cart">
+                                                        <i class="fas fa-shopping-cart mr-1"></i> Add to cart
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3">                     
+                                        <div class="card my-2">
+                                            <img src="./images/products/product-modern-sofa-700x500.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <a href="#">
+                                                    <h5 class="card-title">Modern Sofa</h5>
+                                                </a>
+                                                <p>$900,00</p>
+                                            </div>
+                                            <div class="d-flex buy-btns">
+                                                <div class="col-6 m-0 p-0">
+                                                    <button type="button" class="btn btn-details">
+                                                        <i class="fas fa-eye mr-1"></i> View Details
+                                                    </button>
+                                                </div>
+                                                <div class="col-6 m-0 p-0">
+                                                    <button type="button" class="btn btn-cart">
+                                                        <i class="fas fa-shopping-cart mr-1"></i> Add to cart
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--.row-->
+                            </div>
+                            <!--.item-->
+
+                            <!-- ITEM -->
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <div class="col-lg-3">
+                                        <div class="card my-2">
+                                            <img src="./images/products/product-tshitr-white-700x500.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <a href="#">
+                                                    <h5 class="card-title">White T-Shirt</h5>
+                                                </a>
+                                                <p>$23,00</p>
+                                            </div>
+                                            <div class="d-flex buy-btns">
+                                                <div class="col-6 m-0 p-0">
+                                                    <button type="button" class="btn btn-details">
+                                                        <i class="fas fa-eye mr-1"></i> View Details
+                                                    </button>
+                                                </div>
+                                                <div class="col-6 m-0 p-0">
+                                                    <button type="button" class="btn btn-cart">
+                                                        <i class="fas fa-shopping-cart mr-1"></i> Add to cart
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <div class="card my-2">
+                                            <img src="./images/products/product-bag-2-700x500.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <div class="row">
+                                                    <div class="col-4">
+                                                        <span class="sale">Sale!</span>
+                                                    </div>
+                                                    <div class="col-8">
+                                                        <a href="#">
+                                                            <h5 class="card-title">Red Bag</h5>
+                                                        </a>
+                                                        <p><span>$600,00</span> $450,00</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex buy-btns">
+                                                <div class="col-6 m-0 p-0">
+                                                    <button type="button" class="btn btn-details">
+                                                        <i class="fas fa-eye mr-1"></i> View Details
+                                                    </button>
+                                                </div>
+                                                <div class="col-6 m-0 p-0">
+                                                    <button type="button" class="btn btn-cart">
+                                                        <i class="fas fa-shopping-cart mr-1"></i> Add to cart
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <div class="card my-2">
+                                            <img src="./images/products/product-jacket-700x500.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <a href="#">
+                                                    <h5 class="card-title">Sporty Jacket</h5>
+                                                </a>
+                                                <p>$40,00</p>
+                                            </div>
+                                            <div class="d-flex buy-btns">
+                                                <div class="col-6 m-0 p-0">
+                                                    <button type="button" class="btn btn-details">
+                                                        <i class="fas fa-eye mr-1"></i> View Details
+                                                    </button>
+                                                </div>
+                                                <div class="col-6 m-0 p-0">
+                                                    <button type="button" class="btn btn-cart">
+                                                        <i class="fas fa-shopping-cart mr-1"></i> Add to cart
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <div class="card my-2">
+                                            <img src="./images/products/product-shoes-700x500.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <a href="#">
+                                                    <h5 class="card-title">Minimal Shoes</h5>
+                                                </a>
+                                                <p>$60,00</p>
+                                            </div>
+                                            <div class="d-flex buy-btns">
+                                                <div class="col-6 m-0 p-0">
+                                                    <button type="button" class="btn btn-details">
+                                                        <i class="fas fa-eye mr-1"></i> View Details
+                                                    </button>
+                                                </div>
+                                                <div class="col-6 m-0 p-0">
+                                                    <button type="button" class="btn btn-cart">
+                                                        <i class="fas fa-shopping-cart mr-1"></i> Add to cart
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--.row-->
+                            </div>
+                            <!--.item-->
+
+                            <!-- ITEM -->
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <div class="col-lg-3">
+                                        <div class="card my-2">
+                                            <img src="./images/products/product-tshitr-700x500.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <a href="#">
+                                                    <h5 class="card-title">Minimal T-Shirt</h5>
+                                                </a>
+                                                <p>$15,00</p>
+                                            </div>
+                                            <div class="d-flex buy-btns">
+                                                <div class="col-6 m-0 p-0">
+                                                    <button type="button" class="btn btn-details">
+                                                        <i class="fas fa-eye mr-1"></i> View Details
+                                                    </button>
+                                                </div>
+                                                <div class="col-6 m-0 p-0">
+                                                    <button type="button" class="btn btn-cart">
+                                                        <i class="fas fa-shopping-cart mr-1"></i> Add to cart
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <div class="card my-2">
+                                            <img src="./images/products/product-bag-700x500.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <div class="row">
+                                                    <div class="col-4">
+                                                        <span class="sale">Sale!</span>
+                                                    </div>
+                                                    <div class="col-8">
+                                                        <a href="#">
+                                                            <h5 class="card-title">Women Bag</h5>
+                                                        </a>
+                                                        <p><span>$420,00</span> $350,00</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex buy-btns">
+                                                <div class="col-6 m-0 p-0">
+                                                    <button type="button" class="btn btn-details">
+                                                        <i class="fas fa-eye mr-1"></i> View Details
+                                                    </button>
+                                                </div>
+                                                <div class="col-6 m-0 p-0">
+                                                    <button type="button" class="btn btn-cart">
+                                                        <i class="fas fa-shopping-cart mr-1"></i> Add to cart
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <div class="card my-2">
+                                            <img src="./images/products/product-gloves-700x500.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <div class="row">
+                                                    <div class="col-4">
+                                                        <span class="sale">Sale!</span>
+                                                    </div>
+                                                    <div class="col-8">
+                                                        <a href="#">
+                                                            <h5 class="card-title">Leather Gloves</h5>
+                                                        </a>
+                                                        <p><span>$34,00</span> $27,00</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex buy-btns">
+                                                <div class="col-6 m-0 p-0">
+                                                    <button type="button" class="btn btn-details">
+                                                        <i class="fas fa-eye mr-1"></i> View Details
+                                                    </button>
+                                                </div>
+                                                <div class="col-6 m-0 p-0">
+                                                    <button type="button" class="btn btn-cart">
+                                                        <i class="fas fa-shopping-cart mr-1"></i> Add to cart
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <div class="card my-2">
+                                            <img src="./images/products/product-modern-sofa-700x500.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <a href="#">
+                                                    <h5 class="card-title">Modern Sofa</h5>
+                                                </a>
+                                                <p>$900,00</p>
+                                            </div>
+                                            <div class="d-flex buy-btns">
+                                                <div class="col-6 m-0 p-0">
+                                                    <button type="button" class="btn btn-details">
+                                                        <i class="fas fa-eye mr-1"></i> View Details
+                                                    </button>
+                                                </div>
+                                                <div class="col-6 m-0 p-0">
+                                                    <button type="button" class="btn btn-cart">
+                                                        <i class="fas fa-shopping-cart mr-1"></i> Add to cart
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--.row-->
+                            </div>
+                            <!--.item-->
+            
+                        </div> <!-- /.carousel-inner-->
+                    </div> <!-- /.carousel -->
+            
+                </div>
+            </div> <!-- /.cards-slider -->
+        </div>
+    </section>
+
+    <!-- SECTION SERVICES CARDS -->
+    <section id="services-cards">
+        <div class="container-fluid py-5 text-center">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <i class="fas fa-check-circle fa-2x"></i>
+                            <h5 class="card-title my-4 py-2">TRSUTED BY 10,000+ CUSTOMERS</h5>
+                            <p class="card-text">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                            <button class="btn btn-primary mt-3">Learn More</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card bg-primary">
+                        <div class="card-body">
+                            <i class="fas fa-paper-plane fa-2x text-white"></i>
+                            <h5 class="card-title my-4 py-2 text-white">VERY FAST SHIPPING</h5>
+                            <p class="card-text text-white">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                            <button class="btn btn-primary mt-3">Learn More</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <i class="fas fa-check-circle fa-2x"></i>
+                            <h5 class="card-title my-4 py-2">TRSUTED BY 10,000+ CUSTOMERS</h5>
+                            <p class="card-text">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                            <button class="btn btn-primary mt-3">Learn More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER INFO -->
+    <footer id="footer">
+        <div class="container py-5">
+            <div class="row info">
+                <div class="col-lg-4 px-5">
+                    <h3 class="my-2">ABOUT US</h3>
+                    <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my
+                    whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of</p>
+                </div>
+                <div class="col-lg-4 px-5">
+                    <h3 class="my-2">RECENT POSTS</h3>
+                    <ul>
+                        <li><a href="">Hello world!</a></li>
+                        <li><a href="">Wonderful serenity has taken</a></li>
+                        <li><a href="">In my soul and absorb its power</a></li>
+                        <li><a href="">I hear the buzz of the little</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 px-5">
+                    <h3 class="my-2">TAG CLOUD</h3>
+                    <button type="button" class="btn btn-light my-1">Business</button>
+                    <button type="button" class="btn btn-light my-1">Conference</button>
+                    <button type="button" class="btn btn-light my-1">Gadgets</button>
+                    <button type="button" class="btn btn-light my-1">Identity</button>
+                    <button type="button" class="btn btn-light my-1">Logo</button>
+                    <button type="button" class="btn btn-light my-1">Photography</button>
+                    <button type="button" class="btn btn-light my-1">Time</button>
+                    <button type="button" class="btn btn-light my-1">Trips</button>
+                    <button type="button" class="btn btn-light my-1">Works</button>
+                    <button type="button" class="btn btn-light my-1">Work Space</button>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- FOOTER COPYRIGHT SECTION -->
+    <section id="copyright">
+        <div class="container py-4">
+            <div class="row copyright m-0 p-0">
+                <div class="col-12 text-center">
+                    <p>Copyright &copy; 2019 - 2020 All rights reserved | Goodlayers</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- MODAL -->
+    <div id="connexionModal" class="connexion-modal">
+        <!-- Modal content -->
+        <div class="modal-content p-5">
+            <!-- Close BTN -->
+            <span class="close">&times;</span>
+    
+            <!-- LOGIN & SIGN UP BTNS -->
+            <div class="btn-group mt-5" role="group">
+                <button type="button" id="loginBtn" class="btn btn-primary active">Login</button>
+                <button type="button" id="signUpBtn" class="btn btn-primary">Sign Up</button>
+            </div>
+    
+            <!-- LOGIN FORM -->
+            <form id="login">
+                <!-- EMAIL INPUT -->
+                <div class="input-group my-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="basic-addon1">@</span>
+                    </div>
+                    <input type="text" class="form-control" placeholder="Email" aria-label="Email"
+                        aria-describedby="basic-addon1">
+                </div>
+    
+                <!-- PASSWORD INPUT -->
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="basic-addon1">Password</span>
+                    </div>
+                    <input type="password" class="form-control" placeholder="Password" aria-label="Password"
+                        aria-describedby="basic-addon1">
+                </div>
+    
+                <button type="button" class="btn btn-primary">Login</button>
+            </form>
+    
+            <!-- SIGN UP FORM -->
+            <form id="signUp" class="d-none">
+                <!-- FIRSTNAME INPUT -->
+                <div class="input-group my-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="basic-addon1">First name</span>
+                    </div>
+                    <input type="text" class="form-control" placeholder="First name" aria-label="Fname"
+                        aria-describedby="basic-addon1">
+                </div>
+    
+                <!-- LASTNAME INPUT -->
+                <div class="input-group my-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="basic-addon1">Last name</span>
+                    </div>
+                    <input type="text" class="form-control" placeholder="Last name" aria-label="Lname"
+                        aria-describedby="basic-addon1">
+                </div>
+    
+                <!-- AGE INPUT -->
+                <div class="input-group my-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="basic-addon1">Your age</span>
+                    </div>
+                    <input type="number" class="form-control" placeholder="Your age" aria-label="Age"
+                        aria-describedby="basic-addon1">
+                </div>
+    
+                <!-- EMAIL INPUT -->
+                <div class="input-group my-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="basic-addon1">@</span>
+                    </div>
+                    <input type="text" class="form-control" placeholder="Email" aria-label="Email"
+                        aria-describedby="basic-addon1">
+                </div>
+    
+                <!-- PASSWORD INPUT -->
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="basic-addon1">Password</span>
+                    </div>
+                    <input type="password" class="form-control" placeholder="Password" aria-label="Password"
+                        aria-describedby="basic-addon1">
+                </div>
+    
+                <!-- REPEAT PASSWORD INPUT -->
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="basic-addon1">Repeat password</span>
+                    </div>
+                    <input type="password" class="form-control" placeholder="Repeat password" aria-label="RepeatPassword"
+                        aria-describedby="basic-addon1">
+                </div>
+    
+                <button type="button" class="btn btn-primary">Sign Up</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- SCRIPTS -->
+    <script src="./node_modules/jquery/dist/jquery.js"></script>
+    <script src="./node_modules/popper.js/dist/popper.js"></script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="./js/nav.js"></script>
+    <script src="./js/theme-color.js"></script>
+    <script src="./js/modal.js"></script>
+</body>
+</html>
